@@ -9,5 +9,9 @@ public class PasswordGenerator {
 		byte mese = 11;
 		short anno = 2000;
 		
+		int somma = giorno + mese + anno;
+		
+		System.out.println(nome + "-" + cognome + "-" + colore_preferito + "-" + somma );
+		
 	}
 }
